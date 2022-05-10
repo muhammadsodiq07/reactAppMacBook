@@ -1,0 +1,244 @@
+.slider {
+  margin-left: 100px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.slider__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  margin-bottom: 40px;
+  transition: all 0.3s ease;
+}
+
+.slider__item img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.slider__btn img {
+  width: 50px;
+  height: 40px;
+}
+
+.slider__small-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider__small-item {
+  width: 20%;
+}
+
+.slider__btn {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.slider__btn.active {
+  border: 1px solid blue;
+}
+
+.slider__btn:hover {
+  border-color: blue;
+}
+
+/* Slider end */
+
+
+
+/* hero right */
+
+.heroDiv {
+  margin-left: 100px;
+  display: flex;
+  padding-top: 30px;
+}
+
+.mac {
+  margin-top: 30px;
+  margin-right: 200px;
+}
+
+.mac__title {
+  font-size: 50px;
+}
+
+.mac__ram-title {
+  padding-top: 30px;
+}
+
+.mac__ram-p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.mac__ram-div {
+  display: flex;
+  align-items: center;
+}
+
+.mac__ram-btn {
+  padding: 10px 60px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 3px solid gray;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.btnActive {
+  border-color: #458FDA;
+}
+
+
+
+
+.mac__memory-title {
+  padding-top: 30px;
+}
+
+.mac__memory-p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.mac__memory-div {
+  display: flex;
+  align-items: center;
+}
+
+.mac__memory-btn {
+  padding: 10px 60px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 3px solid gray;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.tb1 {
+  display: none;
+}
+
+.btnmemoryActive {
+  border-color: #458FDA;
+}
+
+
+.mac__ball {
+  position: relative;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  background-color: gold;
+  border-radius: 50%;
+  margin-bottom: 3px;
+}
+
+.ball2 {
+  position: relative;
+  left: 40px;
+  background-color: rgb(180, 180, 180);
+}
+
+.ball3 {
+  background-color: rgb(90, 90, 90);
+}
+
+.mac__colors-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mac__colors__btn {
+  padding: 10px 100px;
+  margin-right: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid gray;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+
+.colorActive {
+  border-color: #458FDA;
+}
+
+.threeBtn {
+  margin-top: 10px;
+}
+
+.mac__count-section {
+  margin-top: 20px;
+}
+
+.mac__span-count {
+  padding: 0px 26px;
+  font-size: 24px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.count__btn {
+  padding: 0px 16px;
+  font-size: 24px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.mac__count-text {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.mac__span-upcase {
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.mac__plus2 {
+  display: none;
+}
+
+.mac__plus3 {
+  display: none;
+}
+
+.mac__plus5 {
+  display: none;
+}
+
+
+.mac__minus2 {
+  display: none;
+}
+
+.mac__minus3 {
+  display: none;
+}
+
+.mac__minus4 {
+  display: none;
+}
