@@ -538,3 +538,29 @@ window.addEventListener('load', () => {
     elCountMinus.style.display = 'none';
   });
 })
+
+
+
+
+
+window.addEventListener('load', () => {
+  const elCountBtn = document.querySelector('.mac__plus2');
+  const elCountBtn1 = document.querySelector('.mac__plus');
+  const elCountBtn5 = document.querySelector('.mac__plus5');
+  const elCountBtn2 = document.querySelector('.mac__plus3');
+  const elCountMinus = document.querySelector('.mac__minus');
+  const elCountMinus2 = document.querySelector('.mac__minus2');
+  const elCountMinus3 = document.querySelector('.mac__minus3');
+  const elCountMinus4 = document.querySelector('.mac__minus4');
+  const elbtn3 = document.querySelector('.gb15')
+  elbtn3.addEventListener("click", () => {
+    elCountBtn.style.display = 'block';
+    elCountBtn1.style.display = 'none';
+    elCountBtn2.style.display = 'none';
+    elCountBtn5.style.display = 'none';
+    elCountMinus2.style.display = 'block';
+    elCountMinus4.style.display = 'none';
+    elCountMinus3.style.display = 'none';
+    elCountMinus.style.display = 'none';
+  });
+})
